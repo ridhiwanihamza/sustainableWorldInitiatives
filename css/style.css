@@ -178,3 +178,140 @@
     }
     
 }
+
+/*-- team --*/
+.tab1 .team-img-w3-agile{
+    background: url(../images/teamb1.jpg) no-repeat 0px 0px;
+}
+.tab2 .team-img-w3-agile{
+    background: url(../images/teamb2.jpg) no-repeat 0px 0px;
+}
+.tab3 .team-img-w3-agile{
+    background: url(../images/teamb1.jpg) no-repeat 0px 0px;
+}
+.tab4 .team-img-w3-agile{
+    background: url(../images/teamb1.jpg) no-repeat 0px 0px;
+}
+.tab1 .team-img-w3-agile, .tab2 .team-img-w3-agile, .tab3 .team-img-w3-agile, .tab4 .team-img-w3-agile{
+    background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 360px;
+    width: 27%;
+    margin-left: 4em;
+}
+.team-info-agileits{
+    text-align: left;
+    padding: 4em 0 0 3em;
+}
+.team-info-agileits h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.team-info-agileits span{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7d7a7a;
+}
+.team-info-agileits p{
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #337ab7;
+    line-height: 30px;
+    margin: 1.5em 0 1em;
+}
+.resp-tabs-list li{
+opacity: .5;
+}
+.resp-tabs-list li {
+    padding: 11px 10px;
+}
+li.resp-tab-item.resp-tab-active{
+    opacity: 1;
+}
+ul.resp-tabs-list{
+    margin-left: 15em;
+}
+ul.resp-tabs-list{
+    margin-left: 17em;
+}
+ul.resp-tabs-list {
+    margin-left: 11.5em;
+}
+ul.resp-tabs-list {
+    margin-left: 5em;
+}
+ul.resp-tabs-list {
+    margin-left: 4.5em;
+}
+.resp-tabs-list li img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius:100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+}
+.resp-tabs-list li img {
+    border-radius: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+.team{
+    padding: 100px 0px;
+}
+h3.title-w3-agileits{
+    font-size: 2.4em;
+    margin-bottom: .8em;
+}
+h3.title-w3-agileits{
+    font-size: 3em;
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+}
+h3.title-w3-agileits{
+    font-size: 2.3em;
+}
+h3.title-w3-agileits {
+    font-size: 2.1em;
+}
+h3.title-w3-agileits {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+h3.title-w3-agileits {
+    font-size: 1.8em;
+}
+h3.title-w3-agileits {
+    font-size: 1.6em;
+}
+h3.title-w3-agileits {
+    font-size: 1.5em;
+}
+h3.title-w3-agileits {
+    font-size: 1.4em;
+    line-height: 33px;
+}
+.title-black-wthree{
+    color: #0f2453 !important;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
