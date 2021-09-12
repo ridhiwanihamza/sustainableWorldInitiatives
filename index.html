@@ -8,17 +8,23 @@
     <title>Sustainable World Initiatives (SWI)</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="menu menu--iris">
     <div class="container-fluid">
       <span><img src="./images/logo.jpg" style="height:80px; width:80px;border-radius: 100%;"></span><a class="navbar-brand" href="#">  SUSTAINABLE WORLD INIATIVES</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <button id="btnScrollToTop">
+        <i class="bi bi-arrow-up">UP</i>
+        </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -244,5 +250,11 @@ Dar es Salaam,<br>Tanzania</span>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    const btnScroolToTop = document.querySelector("#btnScrollToTop");
+    btnScroolToTop.addEventListener("click",function(){
+      window.scrollTo(0,0);
+    });
+  </script>
 </body>
 </html>
